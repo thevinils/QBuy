@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QBuy.Domínio.Contratos
+namespace QBuy.Repositório.Repositorios
 {
-    public interface IProdutoRepositorio : IBaseRepositorio<Produto>
+    class ProdutoRepositorio : BaseRepositorio<Produto>, IPedidoRepositorio 
     {
 
 

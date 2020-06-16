@@ -4,7 +4,16 @@ using System.Text;
 
 namespace QBuy.Repositório.Repositorios
 {
-    class UsuarioRepositorio
+    public class UsuarioRepositorio : BaseRepositorio<Usuario>, IUsuarioRepositorio
     {
+
+        public UsuarioRepositorio()
+        {
+
+
+
+
+        }
+
     }
 }

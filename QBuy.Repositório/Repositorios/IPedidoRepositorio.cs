@@ -1,6 +1,6 @@
 ﻿namespace QBuy.Repositório.Repositorios
 {
-    public interface IUsuarioRepositorio
+    internal interface IPedidoRepositorio
     {
     }
 }
