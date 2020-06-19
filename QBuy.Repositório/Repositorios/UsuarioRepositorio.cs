@@ -15,5 +15,9 @@ namespace QBuy.Repositório.Repositorios
 
         }
 
+        internal void Adicionar(UsuarioRepositorio usuario)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

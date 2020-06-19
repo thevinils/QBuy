@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QBuy.Domínio.Entidades
 {
-    class Usuario : Entidade 
+    public class Usuario : Entidade 
     {
         public int Id { get; set; }
         public string Email { get; set; }

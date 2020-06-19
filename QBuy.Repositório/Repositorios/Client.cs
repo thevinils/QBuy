@@ -12,7 +12,7 @@ namespace QBuy.Repositório.Repositorios
         {
             var usuarioRepositorio = new UsuarioRepositorio();
             var produto = new Produto();
-            var usuario = new Usuario();
+            var usuario = new UsuarioRepositorio();
 
             usuarioRepositorio.Adicionar(usuario); 
 
