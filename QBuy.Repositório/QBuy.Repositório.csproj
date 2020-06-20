@@ -19,8 +19,4 @@
     <ProjectReference Include="..\QBuy.Domínio\QBuy.Domínio.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Config\" />
-  </ItemGroup>
-
 </Project>

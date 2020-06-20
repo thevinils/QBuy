@@ -1,0 +1,15 @@
+{
+  "ConnectionStrings": {
+    "SqlServerConnection": "",
+    "QBuyDB": "server=localhost;uid=root;pwd=admin;database=QBuyDB"
+  }
+}
+
+
+
+
+
+
+
+
+

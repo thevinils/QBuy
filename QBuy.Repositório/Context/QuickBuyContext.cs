@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QBuy.Domínio.Entidades;
 using QBuy.Domínio.Entidades.ObjetoDeValor;
+using QBuy.Repositório.Config;
 using QBuy.Repositório.Repositorios;
 using System;
 using System.Collections.Generic;
@@ -35,6 +36,23 @@ namespace QBuy.Repositório.Context
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            ///Classes de mapeamento...
+
+            modelBuilder.ApplyConfiguration(new UsuarioConfiguration());
+            modelBuilder.ApplyConfiguration(new ProdutoConfiguration());
+            modelBuilder.ApplyConfiguration(new PedidoConfiguration());
+            modelBuilder.ApplyConfiguration(new ItemPedidoConfiguration());
+            modelBuilder.ApplyConfiguration(new FormaPagamentoConfiguration());
+
+
+
+            base.OnModelCreating(modelBuilder);
+
+
+        }
 
     }
 }
