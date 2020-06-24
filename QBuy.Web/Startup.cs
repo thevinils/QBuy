@@ -30,8 +30,7 @@ namespace QBuy.Web
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             var connectionString = Configuration.GetConnectionString("QBuyDB");
-            
-            services.AddDbContext<QuickBuyContext>(option => option.UseMySql(connectionString, m => m.MigrationsAssembly("QBuy.Repositorio")));
+            services.AddDbContext<QuickBuyContext>(option => option.UseLazyLoadingProxies() .UseMySql(connectionString, m => m.MigrationsAssembly("QBuy.Repositorio")));
 
 
 

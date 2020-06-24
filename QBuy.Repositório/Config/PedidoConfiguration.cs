@@ -11,7 +11,12 @@ namespace QBuy.Repositório.Config
     {
         public void Configure(EntityTypeBuilder<Pedido> builder)
         {
-            throw new NotImplementedException();
+            /// MAPEAR CLASSE.
+            /// 
+
+            //builder.HasOne(p => p.Usuario);
+             
+
         }
     }
 }

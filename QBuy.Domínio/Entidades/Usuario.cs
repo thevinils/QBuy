@@ -14,6 +14,18 @@ namespace QBuy.Domínio.Entidades
 
         public String SobreNome { get; set; }
 
+
+        /// <summary>
+        /// USUARIO PODE TER NENHUM OU MUITOS PEDIDOS
+        /// </summary>
+        
+
+
+        public virtual  ICollection<Pedido> Pedidos { get; set; }
+
+
+
+
         public override void Validate()
         {
             if (string.IsNullOrEmpty(Email))
