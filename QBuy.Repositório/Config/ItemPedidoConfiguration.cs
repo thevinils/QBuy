@@ -11,7 +11,33 @@ namespace QBuy.Repositório.Config
     {
         public void Configure(EntityTypeBuilder<ItemPedido> builder)
         {
-            throw new NotImplementedException();
+
+
+            builder.HasKey(I => I.Id);
+
+
+            ///Padrão fluent
+
+
+
+            
+
+            builder
+                .Property(I => I.ProdutoId)
+                .IsRequired()
+                .HasMaxLength(50);
+
+            builder
+                .Property(I => I.Quantidade)
+                .IsRequired()
+                .HasMaxLength(50);
+
+
+
+
+
+
+
         }
     }
 }
