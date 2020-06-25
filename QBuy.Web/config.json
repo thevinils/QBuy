@@ -1,7 +1,7 @@
 {
   "ConnectionStrings": {
     "SqlServerConnection": "",
-    "QBuyDB": "server=localhost;uid=root;pwd=admin;database=QBuyDB"
+    "QBuyDB": "server=localhost;uid=root;pwd=usbw;database=QBuyDB"
   }
 }
 

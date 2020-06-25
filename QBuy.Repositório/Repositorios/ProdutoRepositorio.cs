@@ -1,4 +1,5 @@
-﻿using QBuy.Domínio.Entidades;
+﻿using QBuy.Domínio.Contratos;
+using QBuy.Domínio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Text;

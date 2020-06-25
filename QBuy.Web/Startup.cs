@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using QBuy.Repositório.Context;
+using Pomelo.EntityFrameworkCore.MySql;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace QBuy.Web
 {

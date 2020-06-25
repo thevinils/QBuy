@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QBuy.Domínio.Contratos
 {
-    interface IPedidoRepositorio
+    public interface IPedidoRepositorio
     {
     }
 }
