@@ -14,7 +14,10 @@ namespace QBuy.Web
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        
+        public IConfiguration Configuration { get; }
+        
+        public Startup(IConfiguration Configuration)
         {
 
             var builder = new ConfigurationBuilder();
@@ -24,7 +27,7 @@ namespace QBuy.Web
             Configuration = builder.Build();
         }
 
-        public IConfiguration Configuration { get; }
+        
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)

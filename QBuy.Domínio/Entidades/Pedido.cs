@@ -1,4 +1,4 @@
-﻿using QBuy.Domínio.Entidades.ObjetoDeValor;
+﻿ using QBuy.Domínio.Entidades.ObjetoDeValor;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -12,7 +12,7 @@ namespace QBuy.Repositório.Config
         {
             builder.HasKey(u => u.Id);
 
-            ///Padrão fluent
+            ///Builder utiliza padrão fluent
             
             builder
                 .Property(u => u.Email)
